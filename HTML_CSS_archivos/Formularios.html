@@ -1,0 +1,172 @@
+<!DOCTYPE html> 
+<!-- Elaborado por: Fernández Mejorada Joselynne 
+Fecha:10-03-25 
+-->
+   <html>
+       <head>
+           <meta charset="utf-8"/> 
+        <title>Formularios en html</title> 
+                <link rel="stylesheet"href="CSSparatodo.css">
+       </head>
+       <body>
+           <header>
+               <h1>FORMULARIOS</h1>
+           </header>
+           <nav>
+              <ul> 
+                <li><a href="Formatos%20de%20texto.html">Formatos</a></li> 
+                <li><a href="Listas.html">Listas</a></li>
+                <li><a href="Enlaces.html">Enlaces</a></li>
+                <li><a href="Tablas.html">Tablas</a></li>
+                <li><a href="imagenes.html">Imagenes</a></li> 
+                <li><a href="Audios.html">Audio</a></li>
+                <li><a href="video.html">Videos</a></li> 
+                <li><a href="Formularios.html">Formularios</a></li>
+            </ul> 
+               <a href="index1.html"><img class="imagen_casa" src="imagenes/home.png"> </a> 
+                </nav>
+               <main>
+                   <section>
+                       <h2>FORMULARIO 1</h2>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti praesentium quisquam non quibusdam dolorem molestias impedit aliquam asperiores at sit doloremque, enim a velit ad incidunt odit voluptates consequatur placeat.</p>
+                       <form action="" method="get">
+                           <label for="nombre">Nombre:</label>
+                           <input type="text" id="nombre" name="nombre" value=""> 
+                           <br>
+                           <br>
+                           <label for="contrasena">Contraseña:</label>
+                           <input type="password" id="contrasena" name="contrasena" value="">
+                                        <br>
+                                          <br>
+                           <input type="submit" value="Enviar">
+                       </form>
+                   </section>
+                   <section>
+                       <h2>FORMULARIO 2</h2>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, sit, officia. Veritatis adipisci temporibus dignissimos nulla voluptatum, culpa nihil tempore placeat deleniti repudiandae, in doloremque laboriosam amet minus, commodi iusto.</p>
+                       
+                       <form action="" method="get">
+                           <label for="nombre-1">Nombre:</label>
+                           <input type="text" id="nombre-1" name="nombre-1" value=""> 
+                           <br>
+                           <br>
+                           <label for="genero">Genero:</label> 
+                           <br>
+                           <input type="radio" id="masculino" name="genero" value="Masculino">
+                           <label for="masculino">Masculino</label>
+                           <input type="radio" id="femenino" name="genero" value="femenino">
+                           <label for="femenino">Femenino</label>
+                           <br>
+                           <br>
+                           <label for="pais">¿De qué país nos vitas?</label>
+                           <select id="pais" name="pais">
+                               <option value="ar">Argentina</option>
+                               <option value="co">Colobia</option>
+                               <option value="ec">Ecuador</option>
+                               <option value="it">Italia</option>
+                               <option value="mx">México</option>
+                               <option value="pa">Panama</option>
+                           </select>
+                           <br>
+                           <br>
+                           <label for="ideoma">¿Qué ideoma hablas?</label>
+                           <br>
+                           <input type=checkbox id="ideoma1" name="ideoma1" value="Ingles">
+                           <label for="ideoma1">Ingles</label>
+                           <input type=checkbox id="ideoma2" name="ideoma2" value="frances">
+                           <label for="ideoma3">Frances</label>
+                           <input type=checkbox id="ideoma3" name="ideoma3" value="español">
+                           <label for="ideoma3">Español</label>
+                           <input type=checkbox id="ideoma4" name="ideoma4" value="otro">
+                           <label for="ideoma3">Otro</label>
+                           <br>
+                           <br>
+                           <label for="color">¿Cuál es tu color favorito?</label>
+                           <input type="color" id="color" name="color" value="#ff0000">
+                           <br>
+                           <br>
+                           <input type="submit" value="Enviar">
+                       </form>
+                   </section>
+                   
+                   <section>
+                       <h2>FORMULARIO 3</h2>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi distinctio assumenda nihil architecto, necessitatibus cumque qui minus repudiandae, deleniti perspiciatis, reprehenderit ab in incidunt! Earum accusantium assumenda est deserunt odit.</p>
+                       <form action="" method="get">
+                           <label for="nombre-2">Nombre:</label>
+                           <input type="text" id="nombre-2" name="nombre-2" value=""> 
+                                                      <br>  <br>
+                           <label for="apellidos">Apellidos:</label>
+                           <input type="text" id="apellidos" name="apellidos" value=""> 
+                                                 <br><br>     
+                           <label for="navegadores">¿Qué navegador prefieres?</label>
+                           <input list="browsers" name="browser">
+                           <datalist id="browsers">
+                             <option value="Edge">
+                             <option value="Firefox">
+                             <option value="Chrome">
+                             <option value="Opera">
+                             <option value="Safari">
+                             <option value="otro">
+                           </datalist>
+                           <br>
+                           <br>
+                           <label for="Rang">¿Cómo es tu experiencia con tu navegador?</label>
+                           <br>                           <br>
+                           <label for="bueno">Mala</label>
+                           <input type="range" id="" name="a" value="50">
+                           <label for="bueno">Buena</label>
+                          <br>
+                          <br>
+                          <label for="Texto1">Escribe un comentario:</label>
+                           <textarea name="message" rows="10" cols="30">The...</textarea>
+                           <br>
+                           <br>
+                           <input type="submit">
+                           </form>
+                   </section>
+                   <section>
+                       <h2>FORMULARIO 4</h2>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error est nesciunt rerum, nam corrupti sint eveniet tempore dignissimos, blanditiis molestiae neque iste quia, dicta minima tempora! Ullam animi, optio culpa.</p>
+                       <form action="" method="get">
+                           <label for="nombre-4">Nombre:</label>
+                           <input type="text" id="nombre-4" name="nombre-4" value=""> 
+                                                      <br>
+                                                         <br>
+                             
+                           <label for="date">¿Cuándo naciste?</label>
+                           <input type="date" id="date" name="date" required>
+                           <br>
+                           <br>
+                           <label for="intereses">Selecciona tus intereses:</label>
+                           <br>
+                           <input type="checkbox" id="sports" name="interest" value="sports">
+                           <label for="sports">Deportes</label>
+
+                           <input type="checkbox" id="music" name="interest" value="music">
+                           <label for="music">Música</label>
+
+                           <input type="checkbox" id="movies" name="interest" value="movies">
+                           <label for="movies">Películas</label>
+                           
+                           <input type="checkbox" id="otro" name="otro" value="otro">
+                           <label for="otro">otro</label>
+                                                 <br><br>   
+                           <label for="quantity">¿Cuántas personas viven contigo?</label>
+                           <input type="number" id="quantity" name="quantity" min="1" max="10" step="1">
+
+                          <br><br>
+                          <label for="Texto2">¿Cuál es su parentesco?</label>
+                                                     <br>
+                           <textarea name="message" rows="10" cols="30">The...</textarea>
+                           <br>
+                           <br>
+                           <input type="submit">
+                           </form>
+                   </section>
+               </main>
+               <footer>
+ <H6>Elaborado por Joselynne Fernández Mejorada</H6>
+</footer>
+       </body>
+   </html>
